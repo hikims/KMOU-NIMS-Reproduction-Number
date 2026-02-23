@@ -6,7 +6,7 @@ modeling and time-varying reproduction number (Rt) estimation using:
 -   Synthetic SIR simulations
 -   NHIS-based epidemiological data
 -   Gorji instantaneous Rt method
--   Particle filter / smoother estimation
+-   Smoother estimation
 -   Figure generation scripts for publication
 
 ------------------------------------------------------------------------
@@ -15,9 +15,9 @@ modeling and time-varying reproduction number (Rt) estimation using:
 
 ## Synthetic
 
--   Synthetic_main_github.py\
--   Synthetic_SIR_calc_github.py\
--   Synthetic_Gorji_github.py\
+-   Synthetic_main_github.py
+-   Synthetic_SIR_calc_github.py
+-   Synthetic_Gorji_github.py
 -   Synthetic_particle_github.py
 
 Purpose: - Generate synthetic epidemic curves - Compute theoretical
@@ -32,7 +32,7 @@ Output directory: Pre_defined/data/
 
 ## NHIS
 
--   NHIS_main_github.py\
+-   NHIS_main_github.py
 -   NHIS_particle_github.py
 
 Purpose: - Process NHIS influenza surveillance data - Compute KDCA
@@ -45,12 +45,22 @@ Data location: ./data/
 
 Optional environment variable: export PROJECT_PATH="your/project/root"
 
+The influenza incidence data analyzed in this study were obtained from 
+the National Health Insurance Service (NHIS) through the Korean Public Data Portal:
+
+https://www.data.go.kr/data/15089429/fileData.do
+
+The dataset is publicly accessible through the official portal. 
+To comply with data distribution policies, the original NHIS data are not 
+included in this repository. Users should download the data directly from 
+the source and store them in the `./data/` directory before execution.
+
 ------------------------------------------------------------------------
 
 ## Figures
 
--   fig2_plot_github.py\
--   fig3_plot_github.py\
+-   fig2_plot_github.py
+-   fig3_plot_github.py
 -   fig4_plot_github.py
 
 ### Fig 2
