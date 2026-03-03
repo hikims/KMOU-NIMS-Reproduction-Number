@@ -34,7 +34,9 @@ Output directory: Pre_defined/data/
 
 -   NHIS_main_github.py
 -   NHIS_particle_github.py
-
+-   NHIS_Flu.csv
+-   Pops_Dec2022.csv
+  
 Purpose: - Process NHIS influenza surveillance data - Compute KDCA
 epidemiological weeks - Estimate instantaneous Rt - Apply particle
 smoother for age-specific Rt
@@ -49,11 +51,6 @@ The influenza incidence data analyzed in this study were obtained from
 the National Health Insurance Service (NHIS) through the Korean Public Data Portal:
 
 https://www.data.go.kr/data/15089429/fileData.do
-
-The dataset is publicly accessible through the official portal. 
-To comply with data distribution policies, the original NHIS data are not 
-included in this repository. Users should download the data directly from 
-the source and store them in the `./data/` directory before execution.
 
 ------------------------------------------------------------------------
 
